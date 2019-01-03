@@ -6,7 +6,7 @@
     min-height: 2.5em;
     margin: 0 0 0.5em;
     text-align: left;
-    background: #325468;
+    /*background: #325468;*/
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -51,42 +51,45 @@
     margin: 0 0 0.5em;
     text-align: left;
     background: $blue-text;
-    background: #325468;
+    /*background: #325468;*/
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.title-bottom ul {
+.normal-header ul {
     list-style: none;
     max-width: 100px;
     margin: 0 auto 0;
-    padding-top: 1.2em;
+    padding-top: 0.4em;
+    display: inline;
+    margin-right: 1em;
+    float: right;
 }
 
-.title-bottom ul > li {
+.normal-header ul > li {
     display: inline-block;
     height: 32px;
 }
 
-.title-bottom ul > li > a {
+.normal-header ul > li > a {
     border: none;
     background: none;
     display: inline-block;
     height: 32px;
 }
 
-.title-bottom ul > li > a:hover {
+.normal-header ul > li > a:hover {
     border: none;
     background: none;
     opacity: 35%;
 }
 
-.title-bottom ul > li > a > img {
+.normal-header ul > li > a > img {
     height: 32px;
 }
 
-.title-bottom ul > li > a:hover > img {
+.normal-header ul > li > a:hover > img {
     opacity: 35%;
 }
 
@@ -97,7 +100,8 @@
     font-weight: 400;
     margin: 0 1em;
     display: inline-block;
-    color: white;
+    /*color: white;*/
+    color: black;
     background: transparent;
     text-align: center;
     /*padding-bottom: 10px;*/
@@ -122,20 +126,22 @@
     padding: 30px 10px;
     margin: 20px auto 0;
     text-align: center;
-    border-top: 1px solid #f0f0f2;
+    /*border-top: 1px solid #f0f0f2;*/
     background: white;
 }
 
 .footer-heading {
-    color: $blue-text;
-    color: $blue-dark;
+    /*color: $blue-text;*/
+    /*color: $blue-dark;*/
+    color: black;
     margin: 0;
     font-weight: 400;
     font-size: 12pt;
 }
 
 .footer-copyright {
-    color: $blue-dark;
+    /*color: $blue-dark;*/
+    color: black;
     margin: 0;
     font-size: 12pt;
     font-weight: 400;
@@ -149,7 +155,7 @@
     margin: 2em auto;
     background: white;
     max-width: $content-width;
-    border: 1px solid darken($background-color, 5%);
+    /*border: 1px solid darken($background-color, 5%);*/
     border-radius: 2px;
 }
 

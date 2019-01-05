@@ -3,10 +3,10 @@ title: Microsoft Sculpt Comfort Mouse Mac Gesture Setup
 comments: true
 layout: post
 type: text
-description: A How-To on my custom Microsoft Sculpt Comfort Mouse setup for Macs using Karabiner.
+description: A How-To on my custom Microsoft Sculpt Comfort Mouse setup for Macs using Karabiner. The MS mouse has a cool blue button on the side, used for opening the Start menu and such on Windows. This guide hopes to make that button useful on macOS. 
 ---
 
-UPDATE: A newer version of this for macOS El Captian and above can be found [here](http://www.drewdunne.com/2018/01/15/microsoft-sculpt-comfort-mouse-macOS-gesture-setup-(updated).html).
+**UPDATE**: A newer version of this for macOS El Captian and above can be found below.
 
 I was looking for a nice Bluetooth mouse a while back and I came across the Microsoft Sculpt Comfort Mouse. It connected purely through Bluetooth and not an excessive USB wireless receiver. I found some other mice while looking around, but to me the Sculpt Comfort mouse looked the cleanest, and I could confirm it would work with a Mac from online reviews. You can find the mouse here: [Microsoft Sculpt Comfort Mouse](https://www.microsoft.com/accessories/en-us/products/mice/sculpt-comfort-mouse/h3s-00003).
 
@@ -98,3 +98,17 @@ These are completely customizable to your liking, but these felt most natural to
 ![](/img/msmouse/changekey.png)
 
 After doing so your new mouse should be setup to work with your Mac, swiping an all. Now you don't have to feel bad about not using the great swipe gestures on your trackpad. 
+
+### Updated for El Capitan and above
+
+Previously I wrote about how I set up my [Microsoft Sculpt Comfort Mouse](https://www.microsoft.com/accessories/en-us/products/mice/sculpt-comfort-mouse/h3s-00003)'s Windows key to work with my Mac. Since updating to Sierra and High Sierra, this solution has broken. Thus I set out to find a new solution and I finally have one. I was not able to get the full features of what I had in my former post, but I actually prefer the new mappings. 
+
+To fix the my previous solution, I had to update to the new version of Karabiner, [Karabiner-Elements](https://pqrs.org/osx/karabiner/). This changes things drastically, and so I had to redo my whole experiment of looking at the EventViewer and reading in the activated key codes and modifiers. Long story short, I created a new custom complex modification to add to the software. That can be imported to your Karabiner-Elements by clicking [here](karabiner://karabiner/assets/complex_modifications/import?url=http://www.drewdunne/karabiner/ms_sculpt_mouse.json). That won't work due to GitHub hosting's lack of SSL for custom domains, so you'll have to install the [json file](http://www.drewdunne/karabiner/ms_sculpt_mouse.json) manually into `~/.config/karabiner/assets/complex_modifications/` and then add it under the Complex Modifications tab in karabiner's preferences window. 
+
+The new mappings do the following:
+
+- Press ==> **Launchpad**
+- Swipe up ==> **Spaces Right**
+- Swipe down ==> **Spaces Left**
+
+Again, anyone can customize these to their liking. The JSON documentation for Karabiner-Elements can be found [here](https://pqrs.org/osx/karabiner/json.html). The installation instructions from GitHub are [here](https://github.com/pqrs-org/KE-complex_modifications). Good luck!

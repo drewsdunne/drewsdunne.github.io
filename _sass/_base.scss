@@ -151,7 +151,8 @@ code {
 code {
     padding: 1px 5px;
     /*color: $background-color;*/
-    color: green;
+    color: #222;
+    overflow-wrap: break-word;
 }
 
 pre {

@@ -7,7 +7,7 @@
 
 # Site settings
 title: Drew Dunne
-email: drew@drewdunne.com
+# email: drew@drewdunne.com
 description: > # this means to ignore newlines until "baseurl:"
   My personal website where you can find information on me, 
   my projects, and any blog posts or tutorials I make. 

@@ -6,8 +6,7 @@ layout: default
 
   <h1 class="page-heading" id="posts">About Me</h1>
   <div class="about">
-    <p>Currently an engineering student at Cornell University majoring in Computer Science with a minor in Electrical and Computer Engineering. At school I am a part of Cornell AppDev, a project team that produces iOS apps. When I'm not working, I'm usually playing sports, watching movies or doing the daily crossword puzzle. </p>
-    <p>I like to open source as much of my work as I can. My GitHub page can be found <a href="http://github.com/drewsdunne">here</a>.</p>
+    <p>Currently an undergraduate engineering student at Cornell University majoring in Computer Science with a minor in Electrical and Computer Engineering. At school I am a part of Cornell AppDev, a project team that produces iOS and Android apps. When I'm not working, I'm usually playing sports, watching sports or movies or doing the daily crossword puzzle. </p>
   </div>
 
   <h1 class="page-heading" id="posts">Projects of Note</h1>
@@ -80,7 +79,7 @@ layout: default
     {% if post.type == 'text' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
+        <h2 class="project-header">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="post-preview">

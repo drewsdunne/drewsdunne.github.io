@@ -9,13 +9,12 @@ description: I recently bought and read the paperback version of Ghost in the Wi
 
 The paperback edition of this book (copyright 2011) contains hidden messages, which ask questions. Cracking them on one's own (or in a group) can prove very educational. 
 
-I haven't yet been able to crack all of them, but I will keep the page updated as I can get more and more. 
-Started: Tue Jul 5, 2016
-Last updated: 2:13pm Sun Jul 10, 2016
+I haven't yet been able to crack all of them, but I will keep the page updated as I can get more and more.
+
+- Started: Tue Jul 5, 2016
+- Last updated: 2:13pm Sun Jul 10, 2016
 
 As well as a knowledge of ciphers and encryption, to solve these one will probably need to make multiple programs to crack these messages. I made numerous bash scripts to do simple conversions like reversing text or converting 1's and 0's to dots and dashes. I also used a program I created in my CS2112 class at Cornell. My second assignment was all about ciphers and RSA, looks like it came in handy here!
-
-Below are the answers that I have found so far, if you want to crack them on your own, I would look at this page: <http://www.drewsdunne.com/GITW/messages.html>, it only contains the encrypted messages. Then come check your answers here!
 
 If you would like to talk to me about these email me: 
 FFVJ EE OTSNFHFYPS UBX NZO
